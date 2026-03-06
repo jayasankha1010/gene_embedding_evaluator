@@ -1,0 +1,19 @@
+Task,Model,ROC_AUC
+Long/Short Range TF,pubmed_2022 (LR),0.587008547008547
+Long/Short Range TF,pubmed_2022 (RF),0.5908974358974358
+Long/Short Range TF,pubmed_2022 (Deep MLP),0.6176068376068375
+Dosage Sensitivity,pubmed_2022 (LR),0.9084614352783367
+Dosage Sensitivity,pubmed_2022 (RF),0.8958875251509054
+Dosage Sensitivity,pubmed_2022 (Deep MLP),0.8850616364855803
+Bivalent vs Non-methylated,pubmed_2022 (LR),0.9271103896103895
+Bivalent vs Non-methylated,pubmed_2022 (RF),0.9266774891774892
+Bivalent vs Non-methylated,pubmed_2022 (Deep MLP),0.9152597402597402
+Bivalent vs Lys-4,pubmed_2022 (LR),0.9084920634920636
+Bivalent vs Lys-4,pubmed_2022 (RF),0.8991035353535353
+Bivalent vs Lys-4,pubmed_2022 (Deep MLP),0.886940836940837
+N1 Target,pubmed_2022 (LR),0.7513142130267513
+N1 Target,pubmed_2022 (RF),0.7393950380800535
+N1 Target,pubmed_2022 (Deep MLP),0.7070413497477718
+N1 Network,pubmed_2022 (LR),0.6992729149075899
+N1 Network,pubmed_2022 (RF),0.7042632204396909
+N1 Network,pubmed_2022 (Deep MLP),0.6651937329955906

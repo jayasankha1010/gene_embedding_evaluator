@@ -1,0 +1,7 @@
+Task,Model,Median_Rank,FE_1%
+DEE Prioritization,same_embeddings (LR),2724.5,2.7777777777777777
+DEE Prioritization,same_embeddings (RF),4892.5,0.0
+DEE Prioritization,same_embeddings (Deep MLP),4278.5,0.0
+CP Prioritization,same_embeddings (LR),2166.5,10.775862068965518
+CP Prioritization,same_embeddings (RF),5008.5,6.8965517241379315
+CP Prioritization,same_embeddings (Deep MLP),2278.0,5.172413793103448
