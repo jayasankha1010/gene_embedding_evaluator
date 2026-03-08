@@ -1,0 +1,8 @@
+embeddings/
+*.out
+*.pyc
+__pycache__/
+*.log
+results/
+data/
+outputs/
