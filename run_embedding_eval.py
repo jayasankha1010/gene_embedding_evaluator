@@ -17,7 +17,7 @@ warnings.filterwarnings('ignore')
 # ==========================================
 # CONFIGURATION: HARDCODED FILE PATHS
 # ==========================================
-MAPPING_FILE = "/Users/CULUWITIKEGA/Desktop/CodeBase/GenePT_/mapping/gene_info_table.csv"
+MAPPING_FILE = "./mapping/gene_info_table.csv"
 
 # --- Classification Tasks ---
 LABEL_TF = "./labels/tf_regulatory_range.csv"
