@@ -3,13 +3,14 @@
 #SBATCH --account="punim0512"
 
 # The name of the job:
-#SBATCH --job-name="synergetic"
+#SBATCH --job-name="gene_embedding_eval"
 
 # Partition for the job:
-#SBATCH --partition gpu-a100
+# #SBATCH --partition gpu-a100
+#SBATCH --partition sapphire
 
 # Number of GPUs requested per node:
-#SBATCH --gres=gpu:1
+# #SBATCH --gres=gpu:1
 
 # Maximum number of tasks/CPU cores used by the job:
 #SBATCH --nodes=1
@@ -34,6 +35,7 @@ eval "$(conda shell.bash hook)"
 conda activate torch_env
 export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH #run this terminal when you run python scripts in terminal
 # The job command(s):
+
 cd ./../
 
-python -u ensemble_train.py -e ensemble_100
+python -u run_embedding_eval.py --embeddings ./embeddings/gene_embeddings_all_minilm_l6_v2.csv --tag experiment_name
